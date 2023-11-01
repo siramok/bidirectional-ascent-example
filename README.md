@@ -16,15 +16,6 @@ git clone git@github.com:Alpine-DAV/ascent.git
 cd ascent/scripts/build_ascent/
 ```
 
-#### Clone the command branch of Ascent into the `build_ascent` directory
-```bash
-git clone --recursive git@github.com:Alpine-DAV/ascent.git -b task/2023_08_siramok_command_integration
-```
-or alternatively, modify line 713 of `build_ascent.sh` to:
-```bash
-git clone --recursive https://github.com/Alpine-DAV/ascent.git -b task/2023_08_siramok_command_integration
-```
-
 #### Prepare a Python venv (how we get Ascent + Jupyter support)
 It doesn't matter where the venv lives, but I will assume that it goes into the `build_ascent` directory. Here are the commands:
 ```bash
